@@ -9,5 +9,5 @@
 </br> npm start
 <h1>backend setup </h1>
   cd server
-  node index.js
+</br>node index.js
 </body>
