@@ -11,7 +11,7 @@
   cd server
 </br>node index.js
 </body>
-## 📸 Screenshots
+
 
 ###  emotion selection Example
 ![Chat Screenshot](Screenshot%202025-05-30%20230857.png)
