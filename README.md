@@ -13,8 +13,8 @@
 </body>
 ## 📸 Screenshots
 
-### 🧠 Chat Response Example
+###  emotion selection Example
 ![Chat Screenshot](Screenshot%202025-05-30%20230857.png)
 
-### 🎯 Emotion Selection Interface
+###  chat response Interface
 ![Response Screenshot](Screenshot%202025-05-30%20230923.png)
