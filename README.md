@@ -1,66 +1,57 @@
-
 # AI Mental Health Companion
 
-A supportive web application that provides empathetic mental health assistance through an emotion-based chatbot. It combines predefined responses with AI-generated replies using OpenAI’s GPT-3.5 Turbo, helping users feel heard and understood.
-
----
-
-## Technologies Used
-
-- **Backend:** Node.js, Express, MongoDB, Mongoose  
-- **Frontend:** React.js  
-- **API:** OpenAI GPT-3.5 Turbo  
-- **Others:** CORS, dotenv for environment variables
+The **AI Mental Health Companion** is a web application designed to provide mental health support through empathetic and motivational responses. It allows users to interact with a chatbot that gives pre-programmed support or AI-generated responses based on selected emotions such as **Motivation**, **Anxiety**, or **Talk**.
 
 ---
 
 ## Features
 
-- Emotion-driven chatbot responses (Motivation, Anxiety, Talk)  
-- AI fallback using OpenAI GPT-3.5 Turbo for dynamic conversation  
-- Persistent chat history stored in MongoDB  
-- User authentication and authorization  
-- Clean, responsive React frontend  
+- **Emotion-Based Responses**: Pre-defined replies for Motivation, Anxiety, and Talk.
+- **AI Fallback**: Uses OpenAI to generate responses if no match is found.
+- **MongoDB Integration**: Stores user messages, emotions, and bot replies.
+- **User Authentication**: Signup/Login with secure JWT authentication.
+- **Admin Panel**: View all users' chat histories.
+- **Real-Time Chat UI**: Simple frontend built with React.
+- **REST API**: Built using Express.js and Node.js.
+- **Environment-Based Config**: Uses `.env` for configuration.
+- **Toast Notifications**: User-friendly alerts via React Toastify.
 
 ---
 
-## Setup Instructions
+## Getting Started
 
-### Backend Setup
+### Server
 
-1. Go to the server directory:
-   ```bash
-   cd server
-````
+cd server
 
-2. Install dependencies:
+Install dependencies:
+```bash
+npm install
 
-   ```bash
-   npm install
+Run the backend:
 
-3. Start the backend server:
+node index.js
 
-   ```bash
-   node index.js
+### Client
 
-### Frontend Setup
+Navigate to the client directory:
+```bash
+cd ../client
+```
 
-1. Navigate to the client directory:
+Install dependencies:
+```bash
+npm install
 
-   ```bash
-   cd client
-   ```
+Run the frontend:
+npm start
 
-2. Install dependencies:
+React app running at `http://localhost:3000`
 
-   ```bash
-   npm install
-   ```
+## 📦 Future Features
 
-3. Start the React development server:
-
-   ```bash
-   npm start
-   ```
-
-
+- 🗂 Chat history page for users  
+- 📊 Emotion analysis dashboard (admin view)  
+- 🔔 Daily motivational notifications via email  
+- 🎙 Voice input using Web Speech API  
+- 🌙 Dark mode  
