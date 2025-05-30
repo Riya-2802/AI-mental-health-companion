@@ -12,6 +12,6 @@
 </br>node index.js
 </body>
 <h2>response</h2>
-![Chat Screenshot](Screenshot 2025-05-30 20230857.png)
+![Chat Screenshot](https://github.com/Riya-2802/AI-mental-health-companion/blob/master/Screenshot%202025-05-30%20230857.png?raw=true)
 <h2>option for chat</h2>
 ![Response Screenshot](Screenshot 2025-05-30 20230923.png)
