@@ -1,57 +1,13 @@
-# AI Mental Health Companion
-
-The **AI Mental Health Companion** is a web application designed to provide mental health support through empathetic and motivational responses. It allows users to interact with a chatbot that gives pre-programmed support or AI-generated responses based on selected emotions such as **Motivation**, **Anxiety**, or **Talk**.
-
----
-
-## Features
-
-- **Emotion-Based Responses**: Pre-defined replies for Motivation, Anxiety, and Talk.
-- **AI Fallback**: Uses OpenAI to generate responses if no match is found.
-- **MongoDB Integration**: Stores user messages, emotions, and bot replies.
-- **User Authentication**: Signup/Login with secure JWT authentication.
-- **Admin Panel**: View all users' chat histories.
-- **Real-Time Chat UI**: Simple frontend built with React.
-- **REST API**: Built using Express.js and Node.js.
-- **Environment-Based Config**: Uses `.env` for configuration.
-- **Toast Notifications**: User-friendly alerts via React Toastify.
-
----
-
-## Getting Started
-
-### Server
-
-cd server
-
-Install dependencies:
-```bash
-npm install
-
-Run the backend:
-
-node index.js
-
-### Client
-
-Navigate to the client directory:
-```bash
-cd ../client
-```
-
-Install dependencies:
-```bash
-npm install
-
-Run the frontend:
-npm start
-
-React app running at `http://localhost:3000`
-
-## 📦 Future Features
-
-- 🗂 Chat history page for users  
-- 📊 Emotion analysis dashboard (admin view)  
-- 🔔 Daily motivational notifications via email  
-- 🎙 Voice input using Web Speech API  
-- 🌙 Dark mode  
+<h1>AI Mental Health Companion</h1>
+</br> Tech Stack: MERN (Mongo DB, Express.js, React.js, Node.js), OpenAI API, JWT Auth
+</br>Developed a full-stack mental health web application offering AI-generated empathetic responses based on user-selected emotional states.
+</br> Built a full-stack MERN web app with OpenAI integration that provides emotion-based mental health support and stores user interactions securely with JWT authentication and Mongo DB.
+<body>
+<h1> fortend setup </h1>
+  cd client
+  npm install
+  npm start
+<h1>backend setup </h1>
+  cd server
+  node index.js
+</body>
