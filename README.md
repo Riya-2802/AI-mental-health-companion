@@ -4,9 +4,9 @@
 </br> Built a full-stack MERN web app with OpenAI integration that provides emotion-based mental health support and stores user interactions securely with JWT authentication and Mongo DB.
 <body>
 <h1> fortend setup </h1>
-  cd client
+  cd client</br>
   npm install
-  npm start
+</br> npm start
 <h1>backend setup </h1>
   cd server
   node index.js
